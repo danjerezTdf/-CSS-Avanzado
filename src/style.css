@@ -1,0 +1,65 @@
+
+* {
+margin: 10px 20px;
+}
+
+p {
+    color: blue;
+    }
+body {
+    text-align: center;
+}
+
+
+p.main-parrafos{
+    color: red; 
+}
+
+
+div > h2 {
+    color:rgb(128, 0, 111);
+}
+
+h3#unico {
+    font-size:  15px;
+    color: green;
+}
+
+ul li a {
+    text-decoration:none;
+    color:blue;
+    }
+
+
+div >p {
+    background-color:yellow; 
+}
+div + h2 {
+    background-color:red
+}
+p ~ h2{
+    background-color: orange; 
+}
+div {
+    border: solid;
+}
+
+h1:hover {
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+}
+
+.btnStyle:hover {
+    font-size: 25px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.btnStyle:active {
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    
+}
+
